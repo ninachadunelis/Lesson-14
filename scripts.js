@@ -65,4 +65,26 @@
 
 //6 method
 
-let array5= ['academy', 'of', 'digital', 'industries'];
+// let array5= ['academy', 'of', 'digital', 'industries'];
+
+//method 7
+
+// let array6 = [12, 'google', 32, null, 'yahoo', 25];
+
+// let resultarray8=array6.map(function(item){
+//     if( typeof item == 'number'){
+//         return item *2;
+//     }else if(typeof item == 'string'){
+//         return item.toUpperCase();
+//     }else{
+//          array6.push();
+//     }
+// }
+// )
+// console.log(resultarray8);
+
+//method 8
+
+// let words = ['Madrid', 'Rome', 'Milan', 'Berlin'];
+// let resultwords=words.filter(x => x.includes('m') || x.includes('M'));
+// console.log(resultwords);
