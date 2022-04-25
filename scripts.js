@@ -65,7 +65,12 @@
 
 //6 method
 
-// let array5= ['academy', 'of', 'digital', 'industries'];
+let array5= ['academy', 'of', 'digital', 'industries'].reduce(function(accumulator,currentValue){
+       return accumulator+' '+currentValue;
+},
+''
+)
+console.log(array5);
 
 //method 7
 
